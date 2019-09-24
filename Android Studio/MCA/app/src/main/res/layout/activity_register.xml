@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/item_gradient"
+        android:orientation="vertical"
+        android:padding="50dp"
+        tools:context=".RegisterActivity">
+
+        <TextView
+            android:id="@+id/tv_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="SIGN UP"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/tv_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="First Name"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/et_first_name"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/edit_text_outlined"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_mid_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Middle Name"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/et_mid_name"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/edit_text_outlined"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Last Name"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/et_last_name"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/edit_text_outlined"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_street_adr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Street Address"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/et_street_adr"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/edit_text_outlined"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_street_adr_pt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Street Address (Line 2)"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/et_street_adr_pt2"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/edit_text_outlined"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="City"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/et_city"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/edit_text_outlined"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_zip_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Zipcode"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/et_zip_code"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/edit_text_outlined"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Email"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/edit_text_outlined"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_home_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Home Phone"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/et_home_num"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/edit_text_outlined"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_cell_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Cell Phone"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/et_cell_num"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/edit_text_outlined"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Gender"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+        <RadioGroup
+            android:id="@+id/rg_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:buttonTint="@color/colorWhite"
+                android:textColor="@color/colorWhite"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/rb_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:buttonTint="@color/colorWhite"
+                android:textColor="@color/colorWhite"
+                android:checked="false"/>
+
+        </RadioGroup>
+<!--
+        <TextView
+            android:id="@+id/tv_gis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Are you a gis parent?"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+        <RadioGroup
+            android:id="@+id/rg_gis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_gis_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:buttonTint="@color/colorWhite"
+                android:textColor="@color/colorWhite"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/rb_gis_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:buttonTint="@color/colorWhite"
+                android:textColor="@color/colorWhite"
+                android:checked="false"/>
+
+        </RadioGroup>-->
+
+        <TextView
+            android:id="@+id/tv_years"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="How many years do you want to purchase membership for?"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+
+        <Spinner
+            android:id="@+id/spinner_years"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="10dp"
+            android:background="@color/colorWhite"
+            android:spinnerMode="dropdown"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_rounded"
+            android:text="Next" />
+
+    </LinearLayout>
+</ScrollView>

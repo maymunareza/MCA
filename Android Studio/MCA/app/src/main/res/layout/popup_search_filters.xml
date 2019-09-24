@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="40dp"
+    android:padding="40dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/popup_background">
+
+    <TextView
+        android:id="@+id/tv_years"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="By Year"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDarkBlue" />
+
+
+    <Spinner
+        android:id="@+id/spinner_years"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:spinnerMode="dropdown"
+        android:background="@drawable/edit_text_outlined"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="By City"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDarkBlue" />
+
+
+    <Spinner
+        android:id="@+id/spinner_city"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:spinnerMode="dropdown"
+        android:background="@drawable/edit_text_outlined"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_zipcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="By Zipcode"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDarkBlue" />
+
+
+    <Spinner
+        android:id="@+id/spinner_zipcode"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:spinnerMode="dropdown"
+        android:background="@drawable/edit_text_outlined"
+        android:paddingLeft="20dp"/>
+
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_circle"
+        android:text="Go"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"/>
+
+
+
+</LinearLayout>
